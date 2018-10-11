@@ -4,7 +4,7 @@ const maxTimes = 5;
 
 async function click() {
   const browser = await puppeteer.launch({
-    headless: false,
+//     headless: false,
   });
   const page = await browser.newPage();
 
